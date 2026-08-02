@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于我 About | 吴海轩 Harlen</title>
+  <meta name="description" content="吴海轩（Harlen），2024年毕业于长沙大学。从新媒体运营到跨境电商创业，再到AI落地专家，完成从传统运营到AI商业落地的职业跃迁。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <div class="bg-gradient-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-dot"></span>
+      Harlen<span style="color:var(--accent-ice);">.</span>Wu
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-cn="首页" data-en="Home">首页</a></li>
+      <li><a href="about.html" data-cn="关于我" data-en="About">关于我</a></li>
+      <li><a href="projects.html" data-cn="项目案例" data-en="Projects">项目案例</a></li>
+      <li><a href="skills.html" data-cn="技能体系" data-en="Skills">技能体系</a></li>
+      <li><a href="contact.html" data-cn="联系合作" data-en="Contact">联系合作</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <span class="lang-cn">中</span>
+        <span style="opacity:0.3;">/</span>
+        <span class="lang-en">EN</span>
+      </div>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="page-wrapper">
+    <section class="about-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">ABOUT ME</span>
+          <h2 class="section-title" data-cn="关于我" data-en="About Me">关于我</h2>
+        </div>
+
+        <!-- Bio -->
+        <div class="about-intro reveal">
+          <h2 data-cn="个人简介" data-en="Introduction">个人简介</h2>
+
+          <!-- Chinese Bio -->
+          <div data-cn>
+            <p>吴海轩（Harlen），2024 年毕业于长沙大学，早期深耕<span class="keyword">新媒体内容运营</span>，熟悉流量逻辑、内容生态与用户增长体系。毕业后进入跨境电商赛道，独立创业，深耕 B 端外贸、海外社媒运营与跨境流量变现，积累了扎实的商业落地与项目操盘经验。</p>
+            <p>创业期间因身体原因休整半年，跳出传统流量与贸易固化思维，沉浸式研究<span class="keyword">人工智能落地体系</span>。从 AI 提示词工程、自动化流程搭建、AI 视频矩阵、企业 AI 赋能，到 AI 项目团队管理、商业 SOP 标准化，完成从「传统运营创业者」到「AI 商业落地专家」的职业跃迁。</p>
+            <p>现阶段专注：企业 AI 自动化落地、业务流程 AI 改造、跨境数字化升级、AI 项目交付与团队赋能，坚持「<span class="keyword">不做空谈技术，只做业务落地</span>」的职业理念，帮助传统行业用 AI 降本增效、实现数字化迭代。</p>
+          </div>
+
+          <!-- English Bio -->
+          <div data-en>
+            <p><span class="keyword">Harlen Wu</span>, graduated from Changsha University in 2024. He started his career in new media operation and quickly mastered traffic growth and content operation systems. After graduation, he started his cross-border e-commerce business and accumulated rich experience in overseas social media operation, B2B trade and commercial project delivery.</p>
+            <p>Due to physical health reasons, he took a half-year break during his entrepreneurial period. During this period, he deeply studied <span class="keyword">artificial intelligence application systems</span>. He completed a career transformation from a traditional operation entrepreneur to a professional AI business implementation expert.</p>
+            <p>Currently focusing on enterprise AI automation transformation, business process optimization, cross-border digital upgrading and AI team empowerment. He adheres to <span class="keyword">practical landing logic</span> and helps enterprises reduce costs and improve efficiency through AI technology.</p>
+          </div>
+        </div>
+
+        <!-- Timeline -->
+        <div style="margin-top:100px;" class="reveal">
+          <div class="section-header" style="margin-bottom:48px;">
+            <span class="section-tag">TIMELINE</span>
+            <h2 class="section-title" data-cn="履历时间线" data-en="Career Timeline">履历时间线</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2024</div>
+              <h3 class="timeline-title" data-cn="毕业 & 新媒体运营起步" data-en="Graduation & New Media Operation">毕业 & 新媒体运营起步</h3>
+              <p class="timeline-desc" data-cn="深耕内容流量、平台规则、用户增长，搭建完整新媒体运营思维体系，奠定商业流量底层认知。" data-en="Mastered content operation, traffic logic and user growth, built solid basic business thinking.">
+                深耕内容流量、平台规则、用户增长，搭建完整新媒体运营思维体系，奠定商业流量底层认知。
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2024 – 2025</div>
+              <h3 class="timeline-title" data-cn="跨境电商创业" data-en="Cross-Border E-commerce Entrepreneurship">跨境电商创业</h3>
+              <p class="timeline-desc" data-cn="独立操盘 B 端跨境业务，负责海外社媒矩阵、客户开发、流量投放、外贸转化，具备完整从 0 到 1 创业实战能力。" data-en="Independently operated cross-border B2B business, responsible for overseas traffic, social media marketing and foreign trade conversion.">
+                独立操盘 B 端跨境业务，负责海外社媒矩阵、客户开发、流量投放、外贸转化，具备完整从 0 到 1 创业实战能力。
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2025</div>
+              <h3 class="timeline-title" data-cn="半年休整 · 转型 AI 赛道" data-en="Half-Year Break · AI Transition">半年休整 · 转型 AI 赛道</h3>
+              <p class="timeline-desc" data-cn="因身体原因暂停创业，沉淀复盘商业逻辑，全职深耕 AI 工程化、自动化流程、AI 内容体系，完成赛道升级。" data-en="Took a half-year rest for health reasons, deeply studied AI technology and commercial landing systems, and completed career iteration.">
+                因身体原因暂停创业，沉淀复盘商业逻辑，全职深耕 AI 工程化、自动化流程、AI 内容体系，完成赛道升级。
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-year">2025 – Now</div>
+              <h3 class="timeline-title" data-cn="AI 落地专家 & 数字化项目负责人" data-en="AI Implementation Expert & Digital Project Lead">AI 落地专家 & 数字化项目负责人</h3>
+              <p class="timeline-desc" data-cn="专注企业 AI 自动化落地、AI 视频矩阵、智能投放、RAG 知识库、AI Agent 搭建、团队 AI 赋能与项目交付。" data-en="Focus on enterprise AI automation, AI system construction, digital transformation and AI project delivery.">
+                专注企业 AI 自动化落地、AI 视频矩阵、智能投放、RAG 知识库、AI Agent 搭建、团队 AI 赋能与项目交付。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="brand-name">Harlen Wu</span> <span data-cn="· AI落地专家" data-en="· AI Implementation Expert">· AI落地专家</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="about.html" data-cn="关于" data-en="About">关于</a></li>
+        <li><a href="projects.html" data-cn="项目" data-en="Projects">项目</a></li>
+        <li><a href="skills.html" data-cn="技能" data-en="Skills">技能</a></li>
+        <li><a href="contact.html" data-cn="联系" data-en="Contact">联系</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 Harlen Wu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
