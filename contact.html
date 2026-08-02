@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系合作 Contact | 吴海轩 Harlen</title>
+  <meta name="description" content="联系吴海轩（Harlen）进行商务合作。AI落地专家，专注企业AI自动化落地、业务流程改造、跨境数字化升级。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <div class="bg-gradient-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">
+      <span class="brand-dot"></span>
+      Harlen<span style="color:var(--accent-ice);">.</span>Wu
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-cn="首页" data-en="Home">首页</a></li>
+      <li><a href="about.html" data-cn="关于我" data-en="About">关于我</a></li>
+      <li><a href="projects.html" data-cn="项目案例" data-en="Projects">项目案例</a></li>
+      <li><a href="skills.html" data-cn="技能体系" data-en="Skills">技能体系</a></li>
+      <li><a href="contact.html" data-cn="联系合作" data-en="Contact">联系合作</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-toggle">
+        <span class="lang-cn">中</span>
+        <span style="opacity:0.3;">/</span>
+        <span class="lang-en">EN</span>
+      </div>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="page-wrapper">
+    <section class="contact-section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">CONTACT</span>
+          <h2 class="section-title" data-cn="联系合作" data-en="Get in Touch">联系合作</h2>
+          <p class="section-subtitle" data-cn="无论是AI落地咨询、业务自动化改造还是跨境数字化升级，欢迎联系沟通。" data-en="Whether it's AI implementation consulting, automation transformation, or cross-border digital upgrade — let's talk.">
+            无论是AI落地咨询、业务自动化改造还是跨境数字化升级，欢迎联系沟通。
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels -->
+          <div class="contact-channels reveal">
+            <div class="contact-channel">
+              <div class="contact-channel-icon">💬</div>
+              <div class="contact-channel-info">
+                <h4>WeChat</h4>
+                <p data-cn="扫码添加微信" data-en="Scan to add on WeChat">扫码添加微信</p>
+              </div>
+            </div>
+            <div class="contact-channel">
+              <div class="contact-channel-icon">✉</div>
+              <div class="contact-channel-info">
+                <h4>Email</h4>
+                <p>harlen.wu@ai-expert.com</p>
+              </div>
+            </div>
+            <div class="contact-channel">
+              <div class="contact-channel-icon">🤝</div>
+              <div class="contact-channel-info">
+                <h4 data-cn="商务合作" data-en="Business">商务合作</h4>
+                <p data-cn="企业AI落地·自动化改造·跨境数字化" data-en="Enterprise AI · Automation · Cross-Border Digital">企业AI落地·自动化改造·跨境数字化</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form reveal reveal-delay-1">
+            <h3 data-cn="咨询表单" data-en="Inquiry Form">咨询表单</h3>
+            <p class="form-subtitle" data-cn="填写以下信息，我会尽快与你联系" data-en="Fill in the form below and I'll get back to you soon">填写以下信息，我会尽快与你联系</p>
+            <form>
+              <div class="form-group">
+                <label data-cn="姓名" data-en="Name">姓名</label>
+                <input type="text" name="name" data-cn-placeholder="请输入您的姓名" data-en-placeholder="Your name" placeholder="请输入您的姓名" required>
+              </div>
+              <div class="form-group">
+                <label data-cn="合作需求" data-en="Collaboration Type">合作需求</label>
+                <select name="type" required>
+                  <option value="" data-cn="请选择合作类型" data-en="Select collaboration type" selected disabled>请选择合作类型</option>
+                  <option data-cn="AI自动化落地" data-en="AI Automation Implementation">AI自动化落地</option>
+                  <option data-cn="AI视频矩阵" data-en="AI Video Matrix">AI视频矩阵</option>
+                  <option data-cn="跨境数字化升级" data-en="Cross-Border Digital Upgrade">跨境数字化升级</option>
+                  <option data-cn="团队AI培训" data-en="Team AI Training">团队AI培训</option>
+                  <option data-cn="其他" data-en="Other">其他</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label data-cn="留言" data-en="Message">留言</label>
+                <textarea name="message" data-cn-placeholder="简要描述您的需求或问题..." data-en-placeholder="Briefly describe your needs or questions..." placeholder="简要描述您的需求或问题..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                <span data-cn="提交" data-en="Submit">提交</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="brand-name">Harlen Wu</span> <span data-cn="· AI落地专家" data-en="· AI Implementation Expert">· AI落地专家</span>
+      </div>
+      <ul class="footer-links">
+        <li><a href="about.html" data-cn="关于" data-en="About">关于</a></li>
+        <li><a href="projects.html" data-cn="项目" data-en="Projects">项目</a></li>
+        <li><a href="skills.html" data-cn="技能" data-en="Skills">技能</a></li>
+        <li><a href="contact.html" data-cn="联系" data-en="Contact">联系</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 Harlen Wu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Handle bilingual placeholders
+    function updatePlaceholders() {
+      const lang = document.documentElement.lang;
+      document.querySelectorAll('[data-cn-placeholder]').forEach(el => {
+        el.placeholder = lang === 'zh' ? el.getAttribute('data-cn-placeholder') : el.getAttribute('data-en-placeholder');
+      });
+      // Select first option text
+      document.querySelectorAll('select option').forEach(opt => {
+        if (opt.hasAttribute('data-cn')) {
+          opt.textContent = lang === 'zh' ? opt.getAttribute('data-cn') : opt.getAttribute('data-en');
+        }
+      });
+    }
+    updatePlaceholders();
+    // Re-run on language toggle
+    const toggle = document.querySelector('.lang-toggle');
+    if (toggle) toggle.addEventListener('click', () => setTimeout(updatePlaceholders, 50));
+  </script>
+</body>
+</html>
